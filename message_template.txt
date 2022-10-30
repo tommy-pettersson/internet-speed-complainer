@@ -1,0 +1,13 @@
+Hej.
+
+Det verkar tyvärr som att jag har för låg hastighet på min bredbandsuppkoppling.
+
+Uppmätt idag [DATE] klockan [TIME].
+
+Hastighet ned: [DOWN] Mbps
+Hastighet upp: [UP] Mbps
+
+Vad beror detta på och vad har ni för åtgärdsplan?
+
+Mvh
+Tommy Pettersson
