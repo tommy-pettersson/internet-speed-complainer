@@ -37,8 +37,7 @@ class InternetSpeedMailBot:
     def notify_company(self):
         if self.down < PROMISED_DOWN or self.up < PROMISED_UP:
             with open("message_template.txt") as message_file:
-                message = ["Subject: Låg hastighet på bredbandsuppkoppling.\n\n"]
-                message += message_file.readlines()
+                message = message_file.readlines()
                 message = ''.join(message)
                 message = message.replace("[DATE]", self.date)
                 message = message.replace("[TIME]", self.time)
